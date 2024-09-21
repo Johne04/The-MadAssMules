@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 header {
@@ -11,8 +12,11 @@ header {
     width: 100%;
     background-color: #333;
     color: #fff;
-    padding: 10px;
     z-index: 1000;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
@@ -21,7 +25,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 12%;
 }
 
 nav li {
@@ -35,7 +39,7 @@ nav a {
 }
 
 section {
-    padding: 50px;
+    /* padding: 50px; */
     height: 100vh;
 }
 
@@ -51,6 +55,9 @@ section {
     align-items: center;
 }
 
+.main-pic img{
+    margin-top: 4.6rem;
+}
 #videos{
     background-color: green;
 }
@@ -65,4 +72,15 @@ section {
 
 #contact{
     background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.leftside{
+    border: 5px solid red;
+}
+
+.rightside{
+border: 5px solid blue;
 }
