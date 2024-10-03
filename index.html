@@ -1,46 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Band Website</title>
-    <link rel="stylesheet" href="style.css">
-    
-    
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- *******  Font Awesome Icons Link  ******* -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- *******  Link To Goggle Fonts  *******  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#videos">Videos</a></li>
-                <li><a href="#pics">Photos</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#videos">Videos</a></li>
+          <li><a href="#pics">Photos</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section id="home">
-        <div class="main-pic">
-            <img src="./src/LyleLovettNEW_640.jpg" alt="">
-        </div>
-        </section>
-
+      <div class="main-pic"></div>
+    </section>
+      
     <section id="videos">
-        </section>
+      <div class="content">
+  
+        <div class="section-header">
+          <h1>Video Gallery</h1>  
+         </div>
+        
+        <div class="video-gallery">
+          
+          <div class="gallery-item ">
+           <img src="https://assets.codepen.io/156905/rainier.jpg" alt="Mount Rainier"/>
+            <div class="gallery-item-caption">
+              <!--<div>-->
+                <h2>Mount Rainier</h2>
+                <p>14410 feet of adventure</p>
+              <!--</div>-->
+              <a class="vimeo-popup" href="https://vimeo.com/179049611"></a>
+            </div>
+          </div>
+      
+          <div class="gallery-item">
+            <img src="https://assets.codepen.io/156905/olympicnationalpark.jpg" alt="Olympic National Park"/>
+            <div class="gallery-item-caption">
+              <!--<div>-->
+                <h2>Olympic National Park</h2>
+                <p>Mountains, rain forests, wild coastlines</p>
+              <!--</div>-->
+              <a class="vimeo-popup" href="https://vimeo.com/108785446"></a>
+            </div>
+          </div>
+          
+          <div class="gallery-item">
+           <img src="https://assets.codepen.io/156905/northcascadespark.jpg" class="north-cascades-img" alt="North Cascades National Park"/>
+            <div class="gallery-item-caption">
+              <!--<div>-->
+                <h2>North Cascades</h2>
+                <p>The mountains are calling</p>
+              <!--</div>-->
+              <a class="vimeo-popup" href="https://vimeo.com/3653567"></a>
+            </div>
+          </div>
+      
+          <div class="gallery-item">
+            <img src="https://assets.codepen.io/156905/mountsthelens.jpg" alt="Mount St Helens"/>
+            <div class="gallery-item-caption">
+              <!--<div>-->
+                <h2>Mount St. Helens</h2>
+                <p>The one and only</p>
+              <!--</div>-->
+              <a class="vimeo-popup" href="https://vimeo.com/171540296"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="pics">
+      <div class="gallery-container">
+        <div id="gallery1" class="gallery active">
+          <img
+            src="https://picsum.photos/300/300?random=1"
+            alt="Band photo 1"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=2"
+            alt="Band photo 2"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=3"
+            alt="Band photo 3"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=4"
+            alt="Band photo 4"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=5"
+            alt="Band photo 5"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=6"
+            alt="Band photo 6"
+          />
+        </div>
+        <div id="gallery2" class="gallery">
+          <img
+            src="https://picsum.photos/300/300?random=7"
+            alt="Band photo 7"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=8"
+            alt="Band photo 8"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=9"
+            alt="Band photo 9"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=10"
+            alt="Band photo 10"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=11"
+            alt="Band photo 11"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=12"
+            alt="Band photo 12"
+          />
+        </div>
+        <div id="gallery3" class="gallery">
+          <img
+            src="https://picsum.photos/300/300?random=13"
+            alt="Band photo 13"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=14"
+            alt="Band photo 14"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=15"
+            alt="Band photo 15"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=16"
+            alt="Band photo 16"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=17"
+            alt="Band photo 17"
+          />
+          <img
+            src="https://picsum.photos/300/300?random=18"
+            alt="Band photo 18"
+          />
+        </div>
+        <div class="gallery-nav">
+          <button onclick="showGallery(1)" class="active">Gallery 1</button>
+          <button onclick="showGallery(2)">Gallery 2</button>
+          <button onclick="showGallery(3)">Gallery 3</button>
+        </div>
+      </div>
+     
+    </section>
+
+    <section id="testimonials"></section>
+
+    <section id="contact" class="col left">
+      <div class="container">
+        <!-- <main class="row"> -->
+        <!--  *******   Left Section (Column) Starts   *******  -->
+
+        <section class="col left">
+          <!--  *******   Title Starts   *******  -->
+
+          <div class="contactTitle">
+            <h2>Get In Touch</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod.
+            </p>
+          </div>
+
+          <!--  *******   Title Ends   *******  -->
+
+          <!--  *******   Contact Info Starts   *******  -->
+
+          <div class="contactInfo">
+            <div class="iconGroup">
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="details">
+                <span>Phone</span>
+                <span>+00 110 111 00</span>
+              </div>
+            </div>
+
+            <div class="iconGroup">
+              <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="details">
+                <span>Email</span>
+                <span>name.tutorial@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="iconGroup">
+              <div class="icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="details">
+                <span>Location</span>
+                <span>X Street, Y Road, San Fransisco</span>
+              </div>
+            </div>
+          </div>
+
+          <!--  *******   Contact Info Ends   *******  -->
+
+          <!--  *******   Social Media Starts   *******  -->
+
+          <div class="socialMedia">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+
+          <!--  *******   Social Media Ends   *******  -->
         </section>
 
-    <section id="testimonials">
+        <!--  *******   Left Section (Column) Ends   *******  -->
+
+        <!--  *******   Right Section (Column) Starts   *******  -->
+
+        <section class="col right">
+          <!--  *******   Form Starts   *******  -->
+
+          <form class="messageForm">
+            <div class="inputGroup halfWidth">
+              <input type="text" name="" required="required" />
+              <label>Your Name</label>
+            </div>
+
+            <div class="inputGroup halfWidth">
+              <input type="email" name="" required="required" />
+              <label>Email</label>
+            </div>
+
+            <div class="inputGroup fullWidth">
+              <input type="text" name="" required="required" />
+              <label>Subject</label>
+            </div>
+
+            <div class="inputGroup fullWidth">
+              <textarea required="required"></textarea>
+              <label>Say Something</label>
+            </div>
+
+            <div class="inputGroup fullWidth">
+              <button>Send Message</button>
+            </div>
+          </form>
+
+          <!--  *******   Form Ends   *******  -->
         </section>
 
-    <section id="contact">
-        <div class="leftside"></div>
-        <div class="rightside"></div>
-        </section>
+        <!--  *******   Right Section (Column) Ends   *******  -->
+        <!-- </main> -->
+      </div>
+    </section>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
