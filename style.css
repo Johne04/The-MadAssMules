@@ -45,12 +45,12 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #f3e300;
+  color: dodgerblue;
   display: flex;
 }
 
 section {
-  height: 100vh;
+  min-height: 100vh;
   width: 70vw;
   scroll-snap-align: start;
   display: flex;
