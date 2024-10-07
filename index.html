@@ -38,9 +38,9 @@
 
     <section id="videos">
       <div class="content">
-        <div class="section-header">
+        <!-- <div class="section-header">
           <h1>Video Gallery</h1>
-        </div>
+        </div> -->
 
         <div class="video-gallery">
           <div class="gallery-item">
@@ -146,89 +146,99 @@
     </section>
 
     <section id="pics">
-      <div class="gallery-container">
-        <div id="gallery1" class="gallery active">
-          <img
-            src="https://picsum.photos/300/300?random=1"
-            alt="Band photo 1"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=2"
-            alt="Band photo 2"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=3"
-            alt="Band photo 3"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=4"
-            alt="Band photo 4"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=5"
-            alt="Band photo 5"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=6"
-            alt="Band photo 6"
-          />
+      <div class="slider">
+        <div class="list">
+          <div class="item">
+            <img src="./src/img/img1.jpg" alt="" />
+
+            <div class="content">
+              <div class="title">MAGIC SLIDER</div>
+              <div class="type">FLOWER</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti temporibus quis eum consequuntur voluptate quae
+                doloribus distinctio. Possimus, sed recusandae. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Sequi, aut.
+              </div>
+              <div class="button">
+                <button>GET IN TOUCH</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./src/img/img2.JPG" alt="" />
+
+            <div class="content">
+              <div class="title">MAGIC SLIDER</div>
+              <div class="type">NATURE</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti temporibus quis eum consequuntur voluptate quae
+                doloribus distinctio. Possimus, sed recusandae. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Sequi, aut.
+              </div>
+              <div class="button">
+                <button>SEE MORE</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./src/img/img3.JPG" alt="" />
+
+            <div class="content">
+              <div class="title">MAGIC SLIDER</div>
+              <div class="type">PLANT</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti temporibus quis eum consequuntur voluptate quae
+                doloribus distinctio. Possimus, sed recusandae. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Sequi, aut.
+              </div>
+              <div class="button">
+                <button>SEE MORE</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="./src/img/img4.jpg" alt="" />
+
+            <div class="content">
+              <div class="title">MAGIC SLIDER</div>
+              <div class="type">NATURE</div>
+              <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti temporibus quis eum consequuntur voluptate quae
+                doloribus distinctio. Possimus, sed recusandae. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Sequi, aut.
+              </div>
+              <div class="button">
+                <button>SEE MORE</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div id="gallery2" class="gallery">
-          <img
-            src="https://picsum.photos/300/300?random=7"
-            alt="Band photo 7"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=8"
-            alt="Band photo 8"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=9"
-            alt="Band photo 9"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=10"
-            alt="Band photo 10"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=11"
-            alt="Band photo 11"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=12"
-            alt="Band photo 12"
-          />
+
+        <div class="thumbnail">
+          <div class="item">
+            <img src="./src/img/img1.jpg" alt="" />
+          </div>
+          <div class="item">
+            <img src="./src/img/img2.JPG" alt="" />
+          </div>
+          <div class="item">
+            <img src="./src/img/img3.jpg" alt="" />
+          </div>
+          <div class="item">
+            <img src="./src/img/" alt="" />
+          </div>
         </div>
-        <div id="gallery3" class="gallery">
-          <img
-            src="https://picsum.photos/300/300?random=13"
-            alt="Band photo 13"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=14"
-            alt="Band photo 14"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=15"
-            alt="Band photo 15"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=16"
-            alt="Band photo 16"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=17"
-            alt="Band photo 17"
-          />
-          <img
-            src="https://picsum.photos/300/300?random=18"
-            alt="Band photo 18"
-          />
-        </div>
-        <div class="gallery-nav">
-          <button onclick="showGallery(1)" class="active">Gallery 1</button>
-          <button onclick="showGallery(2)">Gallery 2</button>
-          <button onclick="showGallery(3)">Gallery 3</button>
+
+        <div class="nextPrevArrows">
+          <button class="prev"><</button>
+          <button class="next">></button>
         </div>
       </div>
     </section>
@@ -363,6 +373,6 @@
       </div>
     </section>
 
-    <script src="script.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
