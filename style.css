@@ -1,4 +1,4 @@
-html * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -10,15 +10,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./src/img/);
+  /* background-image: url(./src/img/preview.jpg);
   background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain; */
 }
 
 html {
   /* scroll-snap-type: y mandatory; */
   scroll-padding-top: 0;
+  font-size: 10px;
 }
 header {
   display: flex;
@@ -27,10 +28,10 @@ header {
   left: 0;
   width: 100%;
   /* color: #fff; */
-  z-index: 1000;
+  z-index: 10;
   height: 8vh;
   display: inline-block;
-  background-color: #2e2e2e;
+  /* background-color: #2e2e2e; */
 }
 
 nav,
@@ -50,28 +51,48 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: goldenrod;
+  color: white;
   display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
-section {
+body > section {
   min-height: 100vh;
-  max-width: 70%;
+  max-width: 100vw;
   background-color: whitesmoke;
   /* scroll-snap-align: start; */
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  border-bottom: 2px solid #2e2e2e;
+  /* border-bottom: 2px solid #2e2e2e; */
 }
 
 
 #home {
+    /* width: 100%;
+    max-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+    background-color: rgb(34, 110, 224);
+    }
 
+.homesec1{
+  display: flex;
+  max-width: 50%;
+  
 }
 
-.main-pic {
+.homesec1 img{
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+}
+/* .main-pic {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,11 +100,12 @@ section {
 
 .main-pic img {
   margin-top: 4.6rem;
-}
+} */
 
 #videos {
   /* background-color: #ecf0f1; */
   width: 100%;
+  background-color: #2e2e2e;
 }
 
 .section-header {
@@ -110,8 +132,6 @@ section {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  /* max-width: 1500px; */
-  padding: 55px 0;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -226,27 +246,27 @@ section {
 
 #pics{
   display: flex;
-  align-items: center;
-  
+  align-items: center; 
+  background-color: dodgerblue;
 }
 
-.gallery1{
+.image-gallery{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-  border: 2px solid;
-  object-fit: cover;
-  gap: 2rem;
+  object-fit: fill;
+  gap: 1rem;
 }
 
-.gallery1 img{
+.image-gallery img{
   
   height: 200px;
 }
 #testimonials {
-
+  width: 100%;
+  background-color: dodgerblue;
 }
 
 
@@ -307,6 +327,7 @@ section {
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   align-items: center;
+  background-color: #2e2e2e;
 }
 
 .songlist_container {
@@ -314,10 +335,18 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: whitesmoke;
+  color: gold;
+}
+
+.songname{
+  font-size: 1.4rem;
+}
+
+#contact{
+  background-color: #2e2e2e;
 }
 .container {
-  min-width: 100%;
+  width: 100vw;
   max-height: 100vh;
   display: flex;
   justify-content: center;
@@ -430,7 +459,7 @@ section.left .socialMedia {
   border: 1px solid dodgerblue;
 }
 .socialMedia a:hover i {
-  color: dodgerblue;
+  
 }
 
 /* Code for the right section (column) */
